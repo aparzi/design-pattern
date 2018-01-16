@@ -1,3 +1,5 @@
+package decorator.application;
+
 import java.io.FilterInputStream;
 import java.io.IOException;
 import java.io.InputStream;

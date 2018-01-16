@@ -1,11 +1,13 @@
-import strategy.Context;
-import strategy.OperationAsc;
-import strategy.OperationDesc;
+package strategy;
+
+import strategy.application.Context;
+import strategy.application.OperationAsc;
+import strategy.application.OperationDesc;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class Demo {
 
     public static void main(String[] args) {
         List<Integer> elements = Arrays.asList(10, 2, 5, 7);

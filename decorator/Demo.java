@@ -1,3 +1,7 @@
+package decorator;
+
+import decorator.application.UpperCaseInputStream;
+
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -12,7 +16,7 @@ public class Demo {
             InputStream inputStream =
                     new UpperCaseInputStream(
                             new BufferedInputStream(
-                                    new FileInputStream("resources/DecoratorInputFile")));
+                                    new FileInputStream("design-pattern/decorator/resources/DecoratorInputFile")));
             while((c = inputStream.read()) >= 0) {
                 System.out.print((char)c);
             }
