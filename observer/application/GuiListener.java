@@ -6,6 +6,7 @@ public class GuiListener implements Observer {
 
     public GuiListener(GuiStatus guiStatus){
         this.guiStatus = guiStatus;
+        guiStatus.registerObserver(this);
     }
 
     @Override
