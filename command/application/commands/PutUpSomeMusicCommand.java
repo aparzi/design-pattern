@@ -17,7 +17,7 @@ public class PutUpSomeMusicCommand implements Command{
     public void execute() {
         previousState = new Television(television.getCurrentChannel(), television.getVolume(), television.isOn());
         television.setCurrentChannel(10);
-        television.setVolume(50);
+        television.setVolume(50); // Music channel
         television.setOn(true);
     }
 
